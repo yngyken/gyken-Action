@@ -107,7 +107,7 @@ git clone https://git.kejizero.online/zhao/package_kernel_r8125 package/kernel/r
 git clone https://git.kejizero.online/zhao/package_kernel_r8126 package/kernel/r8126
 
 # 修改名称
-sed -i 's/OpenWrt/ZeroWrt/' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/gykenWrt/' package/base-files/files/bin/config_generate
 
 # default-settings
 git clone --depth=1 -b openwrt-24.10 https://github.com/oppen321/default-settings package/default-settings
